@@ -10,7 +10,7 @@ namespace app_models
         {
             customers = new List<Customer>()
             {
-                new Customer() {Name="Ayanna", LastName="Vargas",Address="401-3122 Nullam Ave", City="Pickering",Province="ON", PostalCode="N6C 7M5", PicturePath="images/user.png", ContactInfo="Work : 624-767-4994"},
+                new Customer() {Name="Ayanna", LastName="Vargas",Address="401-3122 Nulla Ave", City="Pickering",Province="ON", PostalCode="N6C 7M5", PicturePath="images/user.png", ContactInfo="Work : 624-767-4994"},
                 new Customer() {Name="Whitney", LastName="Parks",Address="563-3207 Mi Rd.", City="Greater Sudbury",Province="ON", PostalCode="N9G 5V1", PicturePath="images/user.png", ContactInfo="Cell : 175-370-4839"},
                 new Customer() {Name="Louis", LastName="Watts",Address="P.O. Box 529, 6291 Aliquam Road", City="Fredericton",Province="NB", PostalCode="E2T 4M4", PicturePath="images/user.png", ContactInfo="Cell : 734-499-0531"},
                 new Customer() {Name="Pamela", LastName="Knapp",Address="2425 Urna Road", City="Mission",Province="BC", PostalCode="V6W 1J0", PicturePath="images/user.png", ContactInfo="Home : 510-433-5623"},
