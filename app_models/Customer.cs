@@ -16,6 +16,7 @@ namespace BillingManagement.Models
         private string picturePath;
         private string contactInfo;
 
+     
         public string Name
         {
             get => name;
