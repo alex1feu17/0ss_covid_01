@@ -13,7 +13,7 @@
                 <MenuItem Header="_Fichier">
                     <MenuItem Header="_Ouvrir..."/>
                     <MenuItem Header="_Sauvegarder"/>
-                    <MenuItem Header="_Fermer"/>
+                    <MenuItem Header="Quitter" Click="Quitter" />
                     <Separator/>
                     <MenuItem Header="_Nouveau client" Click="NouveauClient"/>
                     <Separator/>
@@ -28,6 +28,10 @@
                     <MenuItem Header="Fonction 1"/>
                     <MenuItem Header="Fonction 2"/>
                     <MenuItem Header="Fonction 3"/>
+                </MenuItem>
+                <MenuItem Header="Options">
+                    <MenuItem Header="Nouveau client" Click="NouveauClient"/>
+                    <MenuItem Header="Quitter" Click="Quitter"/>
                 </MenuItem>
             </Menu>
         </StackPanel>
